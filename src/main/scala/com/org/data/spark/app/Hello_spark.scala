@@ -1,7 +1,7 @@
 /*
-# Program      : Streaming the data.scala
+# Program      : Hello_Spark.scala
 # Date Created : 07/03/2018
-# Description  : This is a Main class for Streaming Job
+# Description  : Hello to spark app
 # Parameters   :
 #
 # Modification history:
