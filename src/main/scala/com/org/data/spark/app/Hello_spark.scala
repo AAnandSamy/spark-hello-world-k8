@@ -20,7 +20,7 @@ import org.apache.spark.sql.SparkSession
 
 
 object Hello_spark {
-    // run it in window
+    // run it in windows
     System.setProperty("hadoop.home.dir", "C:\\software\\hadoop");
 
     def main(args: Array[String]): Unit = {
