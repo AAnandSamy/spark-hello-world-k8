@@ -26,3 +26,8 @@ $ kubectl create -f ./kubernetes/spark-worker-deployment.yaml
 $ minikube addons enable ingress
 $ kubectl apply -f ./kubernetes/minikube-ingress.yaml
 ```
+To access the Spark UI:
+```sh
+$ kubectl port-forward spark-master-6d58cf7f4c-jkzxh 8080:8080
+```
+
